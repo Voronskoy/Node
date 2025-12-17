@@ -2,8 +2,8 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "private":"true",
-  "type":"module",
+  "private": "true",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Voronskoy/Node/issues"
   },
-  "homepage": "https://github.com/Voronskoy/Node#readme"
+  "homepage": "https://github.com/Voronskoy/Node#readme",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
 }
